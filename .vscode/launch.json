@@ -1,0 +1,25 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "browser-preview",
+            "request": "launch",
+            "name": "Browser Preview: Launch",
+            "url": "http://localhost:3000"
+        },
+        {
+            "type": "browser-preview",
+            "request": "attach",
+            "name": "Browser Preview: Attach"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/home/luigi/Insync/Coding/freecodecamp-projects/Responsive Web Design/Tribute page/index.html"
+        }
+    ]
+}
